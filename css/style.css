@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+body {
+    padding: 50px;
+}
+
+section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+.modal_bg {
+    display: none;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.icons {
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.icons .edit {
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: flex-end;
+}
+
+form .first h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form .first input {
+    padding: 15px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+form .second h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+form .second input {
+    padding: 15px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    width: 131px;
+    height: 50px;
+    background-color: blue;
+    box-shadow: #094c66 4px 4px 0px;
+    border-radius: 8px;
+    transition: transform 200ms, box-shadow 200ms;
+}
+
+button:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px;
+}
+
+
+table {
+    background: white;
+    width: 1000px;
+    border-spacing: 20px;
+}
+
+table thead tr {
+    
+    border-bottom: solid 1px #D8E2EC;
+}
+
+table thead th {
+    text-align: start;
+    color: #8E9AA7;
+}
+
+table tbody {
+    gap: 500px;
+}
+
+table tbody tr {
+    height: 60px;
+    border-bottom: solid 2px #D8E2EC;
+    font-size: 20px;
+}
+
+.model_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.model_box {
+    width: 500px;
+}
+
+.model_box form {
+    align-items: center;
+    flex-direction: column;
+}
+.model_box form p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.model_box form input {
+    padding: 15px;
+    font-size: 15px;
+    width: 70%;
+    height: 55px;
+    border-radius: 10px;
+}
+.model_box form .close {
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #0641cc;
+    font-size: 18px;
+    border: solid 0px;
+    color: #D8E2EC;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model_box form button {
+    margin-top: 10px;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #004DFF;
+    font-size: 20px;
+    border: solid 0px;
+}

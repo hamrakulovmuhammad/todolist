@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section>
+        <header>
+            <h1>Добавление , Изменение и удаление элемента из таблицы</h1>
+        </header>
+
+        <form name="form">
+            <div class="first">
+                <h6>Имя</h6>
+                <input type="text" class="name" name="name" placeholder="Bruce Reyes">
+            </div>
+            <div class="second">
+                <h6>Возраст</h6>
+                <input type="number" class="age" name="age" placeholder="24">
+            </div>
+            <button>Показать</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Имя студента</th>
+                    <th>Год рождения</th>
+                    <th>Действие</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </section>
+    <div class="modal_bg">
+            <div class="model_box">
+                <form class="form_change" name="edit">
+                    <p>Имя</p>
+                    <input type="text" name="change_name" class="change_name">
+                    <p>Возраст</p>
+                    <input type="number" name="change_age" class="change_age">
+                    <button class="change">Измененить</button>
+                </form>
+            </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
